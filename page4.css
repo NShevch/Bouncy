@@ -1,0 +1,146 @@
+#page4{
+	color: var(--color_lightgrey);
+	border-bottom: 3px solid var(--color_aqua);
+	box-sizing: border-box;
+}
+.page4line1{
+	height: 22%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 28px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    padding-bottom: 46px;
+    box-sizing: border-box;
+	color: var(--color_darkgrey);
+}
+.page4line2{
+	height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.page4line3{
+	height: 73%;
+    width: 100%;
+	display: flex;
+    justify-content: space-evenly;
+}
+.page4line3col1{
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 129px 43px;
+}
+.tools{
+	background-image: url(images/sprite_icons.png);
+	background-position: -112px 8px;
+    background-size: 311px;
+    background-repeat: no-repeat;
+}
+.roller{
+	background-image: url(images/sprite_icons.png);
+	background-position: -139px 9px;
+    background-size: 277px;
+    background-repeat: no-repeat;
+}
+.gamepad{
+	background-image: url(images/sprite_icons.png);
+	background-position: -199px 6px;
+    background-size: 297px;
+    background-repeat: no-repeat;
+}
+.plug{
+	background-image: url(images/sprite_icons.png);
+	background-position: -242px 7px;
+    background-size: 294px;
+    background-repeat: no-repeat;
+}
+.page4line3col2{
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 45px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+.page4line3col2line1{
+	font-size: 23px;
+    width: 380px;
+	color: var(--color_darkgrey);
+}
+.page4line3col2line2{
+	font-size: 17px;
+    width: 380px;
+	word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+.page4line3col2line3{
+	font-size: 15px;
+    width: 380px;
+	word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+.page4line3col3{
+	height: 100%;
+    width: 50%;
+    min-width: 522px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.page4line3col3col123{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.percent{
+	height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+.percent_size{
+	font-size: 15px;
+}
+.percent_branding{
+	background-image: conic-gradient(black, black 72deg, var(--color_aqua) 72deg,
+							var(--color_aqua));
+}
+.percent_web{
+	background-image: conic-gradient(black, black 90deg, var(--color_aqua) 90deg,
+							var(--color_aqua));
+}
+.percent_ui{
+	background-image: conic-gradient(black, black 144deg, var(--color_aqua) 144deg,
+							var(--color_aqua));
+}
+.percent_insidetext{
+	position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 142px;
+    width: 142px;
+    background-color: hsl(0deg 0% 95%);
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 48px;
+    font-size: 34px;
+}
+.percentname{
+	margin-top: 20px;
+	font-size: 17px;
+	font-family: var(--font-family_Arial_Narrow);
+	letter-spacing: 1px;
+}

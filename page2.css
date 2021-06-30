@@ -1,0 +1,107 @@
+#page2{
+	color: hsl(240deg 1% 39%);
+}
+.page2line1{
+	height: 22%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 28px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    padding-bottom: 46px;
+    box-sizing: border-box;
+}
+.page2line2{
+	height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    text-align: center;
+    color: var(--color_lightgrey);
+}
+.page2line3{
+	height: 34%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roundbtn{
+	height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    background-color: hsl(229deg 7% 54%);
+    margin: 0px 17px;
+}
+.roundbtn:hover{
+	background-color: var(--color_aqua);
+}
+.heart{
+	background-image: url(images/sprite_icons.png);
+	background-position: 2px 5px;
+}
+.mouse{
+	background-image: url(images/sprite_icons.png);
+	background-position: -47px 5px;
+}
+.bulb{
+	background-image: url(images/sprite_icons.png);
+	background-position: -97px 5px;
+}
+.textaqua{
+	color: var(--color_aqua);
+}
+.textdarkgrey{
+	color: var(--color_darkgrey);
+}
+.page2line4{
+	height: 39%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.6;
+}
+.page2line4col1{
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 300px;
+}
+.page2line4col1line1{
+	font-size: 23px;
+    height: 15%;
+    width: 100%;
+}
+.page2line4col1line2{
+	color: var(--color_lightgrey);
+    height: 48%;
+    width: 100%;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}
+.page2line4col2{
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 551px;
+    color: var(--color_lightgrey);
+}
+.page2line4col2line1{
+	height: 15%;
+	width: 100%;
+}
+.page2line4col2line2{
+	color: var(--color_lightgrey);
+    height: 48%;
+    width: 100%;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+}

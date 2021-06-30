@@ -1,0 +1,35 @@
+#page5{
+	color: var(--color_lightgrey);
+}
+.page5line1{
+	height: 22%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 28px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    padding-bottom: 46px;
+    box-sizing: border-box;
+	color: var(--color_darkgrey);
+}
+.page5line2{
+	height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    text-align: center;
+}
+.page5line3{
+	height: 50%;
+    width: 100%;
+}
+.page5line4{
+	height: 23%;
+    width: 100%;
+}
