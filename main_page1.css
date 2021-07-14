@@ -237,7 +237,7 @@ body::-webkit-scrollbar-thumb { /* ползунок */
     display: none;
 }
 #inputburger:checked ~ .burgermenu{
-	right: 100px;
+	left: 75px;
 	transition: 1s;
 }
 .burgerbtn {
@@ -263,7 +263,7 @@ body::-webkit-scrollbar-thumb { /* ползунок */
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: -200px;
+    left: -200px;
     top: 0px;
     box-shadow: inset 0 0 20px -6px black;
 	background-color: hsl(35deg 27% 34%);
