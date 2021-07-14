@@ -45,7 +45,7 @@
     width: 57px;
     border-radius: 50%;
     background-color: hsl(229deg 7% 54%);
-	cursor: url(images/cursorbtn.png), auto;
+	cursor: url(./images/cursorbtn.png), auto;
 }
 .roundbtn:hover{
 	background-color: var(--color_aqua);
@@ -54,15 +54,15 @@
 	box-shadow: 0 0 2px 1px white, 0 0 14px 3px var(--color_darkgrey);
 }
 .heart{
-	background-image: url(images/sprite_icons.png);
+	background-image: url(./images/sprite_icons.png);
 	background-position: 2px 5px;
 }
 .mouse{
-	background-image: url(images/sprite_icons.png);
+	background-image: url(./images/sprite_icons.png);
 	background-position: -47px 5px;
 }
 .bulb{
-	background-image: url(images/sprite_icons.png);
+	background-image: url(./images/sprite_icons.png);
 	background-position: -97px 5px;
 }
 .textaqua{

@@ -47,7 +47,7 @@
 	height: 100%;
     width: calc(100% / 3);
 	transition: 1s;
-	cursor: url(images/cursorbtn.png), auto;
+	cursor: url(./images/cursorbtn.png), auto;
 }
 .page3photo{
 	height: 100%;
@@ -64,7 +64,7 @@
 	/* transition: 1s; */
 }
 .page3photo1{
-	background-image: url(images/page3photo1.jpg);
+	background-image: url(./images/page3photo1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -85,19 +85,19 @@
 	visibility: hidden;
 }
 .page3photo2{
-	background-image: url(images/page3photo2.jpg);
+	background-image: url(./images/page3photo2.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .page3photo3{
-	background-image: url(images/page3photo3.jpg);
+	background-image: url(./images/page3photo3.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .page3line4{
 	height: 15%;
     width: 100%;
-	background-image: url(images/page3photo4.jpg);
+	background-image: url(./images/page3photo4.jpg);
 	background-position: center;
     background-repeat-y: no-repeat;
 }

@@ -49,25 +49,25 @@
 	box-shadow: 0 0 2px 1px white, 0 0 14px 3px var(--color_darkgrey);
 }
 .tools{
-	background-image: url(images/sprite_icons.png);
+	background-image: url(././images/sprite_icons.png);
 	background-position: -112px 8px;
     background-size: 311px;
     background-repeat: no-repeat;
 }
 .roller{
-	background-image: url(images/sprite_icons.png);
+	background-image: url(./images/sprite_icons.png);
 	background-position: -139px 9px;
     background-size: 277px;
     background-repeat: no-repeat;
 }
 .gamepad{
-	background-image: url(images/sprite_icons.png);
+	background-image: url(./images/sprite_icons.png);
 	background-position: -199px 6px;
     background-size: 297px;
     background-repeat: no-repeat;
 }
 .plug{
-	background-image: url(images/sprite_icons.png);
+	background-image: url(./images/sprite_icons.png);
 	background-position: -242px 7px;
     background-size: 294px;
     background-repeat: no-repeat;

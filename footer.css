@@ -1,7 +1,7 @@
 #footer{
 	height: 25vh;
     width: 100vw;
-	background-image: url(images/footer.png);
+	background-image: url(./images/footer.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
