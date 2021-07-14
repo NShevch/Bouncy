@@ -1,5 +1,9 @@
 #page2{
 	color: hsl(240deg 1% 39%);
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .page2line1{
 	height: 22%;
@@ -32,15 +36,22 @@
     justify-content: center;
     align-items: center;
 }
+.page2line3btn{
+    border-radius: 50%;
+    margin: 0px 17px;
+}
 .roundbtn{
 	height: 57px;
     width: 57px;
     border-radius: 50%;
     background-color: hsl(229deg 7% 54%);
-    margin: 0px 17px;
+	cursor: url(images/cursorbtn.png), auto;
 }
 .roundbtn:hover{
 	background-color: var(--color_aqua);
+}
+.page2line3btn:focus .roundbtn{
+	box-shadow: 0 0 2px 1px white, 0 0 14px 3px var(--color_darkgrey);
 }
 .heart{
 	background-image: url(images/sprite_icons.png);

@@ -3,12 +3,15 @@
 	<head>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<title> Bouncy </title>
 		<link rel='stylesheet' href='main_page1.css'>
 		<link rel='stylesheet' href='page2.css'>
 		<link rel='stylesheet' href='page3.css'>
 		<link rel='stylesheet' href='page4.css'>
 		<link rel='stylesheet' href='page5.css'>
-		<title> Bouncy </title>
+		<link rel='stylesheet' href='page6.css'>
+		<link rel='stylesheet' href='footer.css'>
+		<link rel='stylesheet' href='adaptation.css'>
 	</head>
 	<body>
 		<header id='page1' class='block'>
@@ -21,7 +24,53 @@
 					<a class='buttonwithborder' href='#page5'><div class='menu'>Portfolio</div></a>
 					<a class='buttonwithborder' href='#page6'><div class='menu'>Team</div></a>
 					<a class='buttonwithborder' href='#page3'><div class='menu'>Blog</div></a>
-					<a class='buttonwithborder' href='#page6'><div class='menu'>Contact</div></a>
+					<a class='buttonwithborder' href='#footer'><div class='menu'>Contact</div></a>
+				</div>
+				<input id='inputburger' type='checkbox'>
+				<label class='burgerbtn' for='inputburger'>
+					<svg class='burgerlines'>
+						<polyline 
+							points='7,9 38,9'
+							fill='none'
+							stroke='var(--color_aqua)'
+							stroke-width='2'
+						/>
+						<polyline 
+							points='7,22 38,22'
+							fill='none'
+							stroke='var(--color_aqua)'
+							stroke-width='2'
+						/>
+						<polyline 
+							points='7,35 38,35'
+							fill='none'
+							stroke='var(--color_aqua)'
+							stroke-width='2'
+						/>
+					</svg>
+				</label>
+				<div class='burgermenu'>
+					<a class='burgermenubtn' href='#page1'>
+						<div class='burgermenubtntext'>Hello</div>
+					</a>
+					<a class='burgermenubtn' href='#page2'>
+						<div class='burgermenubtntext'>About</div>
+					</a>
+					<a class='burgermenubtn' href='#page4'>
+						<div class='burgermenubtntext'>Services</div>
+					</a>
+					<a class='burgermenubtn' href='#page5'>
+						<div class='burgermenubtntext'>Portfolio</div>
+					</a>
+					<a class='burgermenubtn' href='#page6'>
+						<div class='burgermenubtntext'>Team</div>
+					</a>
+					<a class='burgermenubtn' href='#page3'>
+						<div class='burgermenubtntext'>Blog</div>
+					</a>
+					<a class='burgermenubtn' href='#footer'>
+						<div class='burgermenubtntext'>Contact</div>
+					</a>
 				</div>
 			</div>
 			<div class='p1mainline'>
@@ -34,9 +83,17 @@
 				</div>
 			</div>
 			<div class='p1footerline'>
-				<a class='button' href='#page2'>
+				<a class='button buttonsize' href='#page2'>
 					<div class='down'>&#10095;</div>
 				</a>
+			</div>
+			<div class='scrollbtnswrap'>
+			<a class='scrollbtn scrollbtnup' href='#page1'>
+				<img class='scrollbtnimg' src='images/scrollup.png' alt='scrollbtnup'>
+			</a>
+			<a class='scrollbtn scrollbtndown' href='#footer'>
+				<img class='scrollbtnimg' src='images/scrolldown.png' alt='scrollbtndown'>
+			</a>
 			</div>
 		</header>
 		<main>
@@ -47,9 +104,9 @@
 					blanditiis praesentium
 				</div>
 				<div class='page2line3'>
-					<a href=''><div class='roundbtn heart'></div></a>
-					<a href=''><div class='roundbtn mouse'></div></a>
-					<a href=''><div class='roundbtn bulb'></div></a>
+					<a class='page2line3btn' href='#!'><div class='roundbtn heart'></div></a>
+					<a class='page2line3btn' href='#!'><div class='roundbtn mouse'></div></a>
+					<a class='page2line3btn' href='#!'><div class='roundbtn bulb'></div></a>
 				</div>
 				<div class='page2line4'>
 					<div class='page2line4col1'>
@@ -82,11 +139,43 @@
 					blanditiis praesentium
 				</div>
 				<div class='page3line3'>
-					<div class='page3photo page3photo1'>Photos</div> 
-					<div class='page3photo page3photo2'>Vintage</div> 
-					<div class='page3photo page3photo3'>Branding</div>
+					<a class='page3photowrap_a' href='#!'>
+					<div class='page3photowrap wrap1'>
+						<div class='page3photo page3photo1'></div> 
+						<div class='page3phototext'>PHOTOS</div>
+					</div>
+					</a>
+					<a class='page3photowrap_a' href='#!'>
+					<div class='page3photowrap'>
+						<div class='page3photo page3photo2'></div> 
+						<div class='page3phototext'>VINTAGE</div>
+					</div>
+					</a>
+					<a class='page3photowrap_a' href='#!'>
+					<div class='page3photowrap'>
+						<div class='page3photo page3photo3'></div>
+						<div class='page3phototext'>BRANDING</div>
+					</div>
+					</a>
 				</div>
-				<div class='page3line4'></div>
+				<div class='page3line4'>
+					<div class='page3line4text'>
+						<div class='page3line4textcol1'>
+							<div>
+								At vero eos et <b class='page3textletter-spacing'>accusamus</b> 
+								et iusto odio dignissimos ducimus qui blanditiis
+							</div>
+						</div>
+						<div class='page3line4textcol2'>
+							<a class='button'href='#!'>
+								<div class='page3line4textcol2button'>
+									Submit Now
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				
 			</section>
 			<section id='page4' class='block'>
 				<div class='page4line1'>OUR SERVICES</div>
@@ -96,10 +185,10 @@
 				</div>
 				<div class='page4line3'>
 					<div class='page4line3col1'>
-						<a href=''><div class='roundbtn tools'></div></a>
-						<a href=''><div class='roundbtn roller'></div></a>
-						<a href=''><div class='roundbtn gamepad'></div></a>
-						<a href=''><div class='roundbtn plug'></div></a>
+						<a class='page4line3col1btn' href='#!'><div class='roundbtn tools'></div></a>
+						<a class='page4line3col1btn' href='#!'><div class='roundbtn roller'></div></a>
+						<a class='page4line3col1btn' href='#!'><div class='roundbtn gamepad'></div></a>
+						<a class='page4line3col1btn' href='#!'><div class='roundbtn plug'></div></a>
 					</div>
 					<div class='page4line3col2'>
 						<div class='page4line3col2line1'>Graphic Design</div>
@@ -137,18 +226,439 @@
 					</div>
 				</div>
 			</section>
-			<section id='page5' class='block'>
+			<section id='page5' class='block customblock1'>
 				<div class='page5line1'>THE PORTFOLIO</div>
 				<div class='page5line2'>
 					At vero eos et accusamus et iusto odio dignissimos ducimus qui  <br> 
 					blanditiis praesentium
 				</div>
-				<div class='page5line3'></div>
-				<div class='page5line4'></div>
+				<div class='page5line3'>
+					<div class='page5line3wrap'>
+						<a class='page5line3btn' href='#!'><div class='page5line3blocks'>All Works</div></a>
+						<a class='page5line3btn' href='#!'><div class='page5line3blocks'>Print</div></a>
+						<a class='page5line3btn' href='#!'><div class='page5line3blocks'>Identity</div></a>
+						<a class='page5line3btn' href='#!'><div class='page5line3blocks'>Branding</div></a>
+						<a class='page5line3btn' href='#!'><div class='page5line3blocks'>Web</div></a>
+						<a class='page5line3btn' href='#!'><div class='page5line3blocks'>HTML</div></a>
+						<a class='page5line3btn' href='#!'><div class='page5line3blocks'>Wordpress</div></a>
+					</div>
+				</div>
+				<div class='page5line4'>
+					<div class='page5line4colwrap'>
+						<div class='page5line4col'>
+							<div class='page5photoall page5photo1'>
+								<img class='p5photo' src='images/1.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo1 photomargin'>
+								<img class='p5photo ' src='images/2.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo2'>
+								<img class='p5photo' src='images/3.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='page5line4col'>
+							<div class='page5photoall page5photo2'>
+								<img class='p5photo' src='images/4.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo1 photomargin'>
+								<img class='p5photo' src='images/5.png' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo1'>
+								<img class='p5photo' src='images/6.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='page5line4colwrap'>
+						<div class='page5line4col'>
+							<div class='page5photoall page5photo3'>
+								<img class='p5photo' src='images/7.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo1 photomargin'>
+								<img class='p5photo' src='images/8.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo4'>
+								<img class='p5photo' src='images/9.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='page5line4col'>
+							<div class='page5photoall page5photo1'>
+								<img class='p5photo' src='images/10.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo4 photomargin'>
+								<img class='p5photo' src='images/11.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+							<div class='page5photoall page5photo3'>
+								<img class='p5photo'src='images/12.jpg' alt='photo'>
+								<div class='p5photoinfo'>
+									<div class='p5phototitle textaqua'>TITLE HERE</div>
+									<div class='p5photoline'></div>
+									<div class='p5photoinfotext'>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+										blanditiis praesentium</div>
+									<div class='p5photolinks'>
+										<a class='button p5btn' href='images/1.jpg' target='blank'><div class='p5photolink_link'></div></a>
+										<a class='button p5btn' href='#!'><div class='p5photolink_like'></div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='page5line5'>
+					<div class='page5line5wrap'>
+						<div class='page5line5text'>
+							<div class='page5line5textline1'>
+								<div>
+									At vero eos et <b class='page3textletter-spacing'>accusamus</b> 
+									et iusto odio <b class='page3textletter-spacing'>dignissimos</b>
+									ducimus qui blanditiis
+								</div>
+							</div>
+							<div class='page5line5textline2'>
+								<a class='button'href='#!'>
+									<div class='page5line5textline2button'>
+										Start Project
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id='page6' class='block'>
+				<div class='page6line1'>THE TEAM</div>
+				<div class='page6line2'>
+					At vero eos et accusamus et iusto odio dignissimos ducimus qui  <br> 
+					blanditiis praesentium
+				</div>
+				<div class='page6line3'>
+					<div class='page6line3sliderwrap'>
+						<div class='page6line3slider'>
+							<div class='page6line3slider1'>
+								<div class='sliderimg'>
+									<img class='sliderimgteam' src='images/team.jpg' alt='photo: Abdullah Noman'>
+								</div>
+								<div class='slidertext'>
+									<div class='slidertextline1'>
+										<div class='slidertextline1name'>
+											Abdullah Noman
+										</div>
+										<div class='slidertextline1position'>
+											CREATIVE DIRECTOR, CODE CAFE
+										</div>
+									</div>
+									<div class='slidertextline2'>
+										At vero eos et accusamus et iusto odio dignissimos 
+										<span>ducimus qui blanditiis praesentium</span>
+									</div>
+									<div class='slidertextline3'>
+										<div class='sliderbranding'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													BRANDING
+												</div>
+												<div class='slidertextline3row1col2'>
+													80 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderbrandingtextline3row2col1'></div>
+												<div class='sliderbrandingtextline3row2col2'></div>
+											</div>
+										</div>
+										<div class='sliderweb'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													WEB DESIGN
+												</div>
+												<div class='slidertextline3row1col2'>
+													65 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderwebtextline3row2col1'></div>
+												<div class='sliderwebtextline3row2col2'></div>
+											</div>
+										</div>
+										<div class='slideruser'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													USER INTERFACE
+												</div>
+												<div class='slidertextline3row1col2'>
+													75 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderusertextline3row2col1'></div>
+												<div class='sliderusertextline3row2col2'></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='page6line3slider2'>
+								<div class='sliderimg'>
+									<img class='sliderimgteam' src='images/team.jpg' alt='photo: Abdullah Noman'>
+								</div>
+								<div class='slidertext'>
+									<div class='slidertextline1'>
+										<div class='slidertextline1name'>
+											Abdullah Noman
+										</div>
+										<div class='slidertextline1position'>
+											CREATIVE DIRECTOR, CODE CAFE
+										</div>
+									</div>
+									<div class='slidertextline2'>
+										At vero eos et accusamus et iusto odio dignissimos 
+										<span>ducimus qui blanditiis praesentium</span>
+									</div>
+									<div class='slidertextline3'>
+										<div class='sliderbranding'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													BRANDING
+												</div>
+												<div class='slidertextline3row1col2'>
+													80 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderbrandingtextline3row2col1'></div>
+												<div class='sliderbrandingtextline3row2col2'></div>
+											</div>
+										</div>
+										<div class='sliderweb'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													WEB DESIGN
+												</div>
+												<div class='slidertextline3row1col2'>
+													65 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderwebtextline3row2col1'></div>
+												<div class='sliderwebtextline3row2col2'></div>
+											</div>
+										</div>
+										<div class='slideruser'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													USER INTERFACE
+												</div>
+												<div class='slidertextline3row1col2'>
+													75 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderusertextline3row2col1'></div>
+												<div class='sliderusertextline3row2col2'></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class='page6line3slider3'>
+								<div class='sliderimg'>
+									<img class='sliderimgteam' src='images/team.jpg' alt='photo: Abdullah Noman'>
+								</div>
+								<div class='slidertext'>
+									<div class='slidertextline1'>
+										<div class='slidertextline1name'>
+											Abdullah Noman
+										</div>
+										<div class='slidertextline1position'>
+											CREATIVE DIRECTOR, CODE CAFE
+										</div>
+									</div>
+									<div class='slidertextline2'>
+										At vero eos et accusamus et iusto odio dignissimos 
+										<span>ducimus qui blanditiis praesentium</span>
+									</div>
+									<div class='slidertextline3'>
+										<div class='sliderbranding'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													BRANDING
+												</div>
+												<div class='slidertextline3row1col2'>
+													80 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderbrandingtextline3row2col1'></div>
+												<div class='sliderbrandingtextline3row2col2'></div>
+											</div>
+										</div>
+										<div class='sliderweb'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													WEB DESIGN
+												</div>
+												<div class='slidertextline3row1col2'>
+													65 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderwebtextline3row2col1'></div>
+												<div class='sliderwebtextline3row2col2'></div>
+											</div>
+										</div>
+										<div class='slideruser'>
+											<div class='slidertextline3row1'>
+												<div class='slidertextline3row1col1'>
+													USER INTERFACE
+												</div>
+												<div class='slidertextline3row1col2'>
+													75 %
+												</div>
+											</div>
+											<div class='slidertextline3row2'>
+												<div class='sliderusertextline3row2col1'></div>
+												<div class='sliderusertextline3row2col2'></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class='page6line3sliderdots'>
+						<input name='dots' id='dot1' type='radio'>
+						<label class='inputdot inputdot1' for='dot1'></label>
+						<input name='dots' id='dot2' type='radio'>
+						<label class='inputdot inputdot2' for='dot2'></label>
+						<input name='dots' id='dot3' type='radio'>
+						<label class='inputdot inputdot3' for='dot3'></label>
+					</div>
+				</div>
 			</section>
 		</main>
-		<footer class='block'>
-			
+		<footer id='footer'>
+			<div class='footertext'>
+				<div class='footertextline1'>
+					Already Loved Us? Let's talk!
+				</div>
+				<div class='footertextline2'>
+					<a class='button'href='#!'>
+						<div class='footertextline2button'>
+							Contact Us
+						</div>
+					</a>
+				</div>
+			</div>
+					
 		</footer>
 			
 	</body>

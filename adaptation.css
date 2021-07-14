@@ -1,0 +1,157 @@
+@media (max-width:920px){
+	.menubox{
+		width: 63%;
+		flex-wrap: wrap;
+		padding-top: 16px;
+		align-items: center;
+		justify-content: center;
+	}
+	.citename {
+		width: 30%;
+		min-width: 295px;
+	}
+	.menubox {
+		padding-right: 314px;
+	}
+	.page2line4col2line2 {
+        box-sizing: border-box;
+		padding: 0 20px;
+	}
+	.page2line4col1line2 {
+        box-sizing: border-box;
+		padding: 0 20px;
+	}
+	.page2line4col1line1 {
+        box-sizing: border-box;
+		padding: 0 20px;
+	}
+}
+@media (max-width:750px){
+	.menubox {
+		width: 71%;
+		padding-right: 180px;
+	}
+	.citename {
+		width: 29%;
+		min-width: 240px;
+		padding-left: 65px;
+	}
+}
+@media (max-width:670px){
+	.p1line3 {
+		width: 69%;
+	}
+}
+@media (max-width:640px){
+	.menubox {
+		padding-right: 240px;
+	}
+}
+@media (max-width:640px){
+	.page2line4{
+		flex-direction: column;
+	}
+	.page2line4col1line1 {
+		height: 31%;
+	}
+	.page2line4col1 {
+		height: 62%;
+		width: 100%;
+	}
+	.page2line4col2 {
+		height: 100%;
+		width: 100%;
+	}
+	.page2line4col2line1{
+		display: none;
+	}
+}
+@media (max-width:535px){
+	.p1line3 {
+		width: 100%;
+	}
+	.page2line2 {
+		width: 67%;
+	}
+}
+@media (max-width:525px){
+	.menubox {
+		display: none;
+	}
+	.burgerbtn {
+		display: flex;
+	}
+	.burgermenu {
+		display: flex;
+	}
+}
+@media (max-width:480px){
+	.p1line2{
+		padding: 0px 173px 26px;
+	}
+	.page2line4 {
+		height: 47%;
+	}
+	.page2line3 {
+		height: 26%;
+	}
+}
+@media (max-width:400px){
+	.page2line1 {
+		width: 34%;
+	}
+	.page2line2 {
+		width: 89%;
+	}
+}
+@media (max-width:370px){
+	.p1line3 {
+		width: 83%;
+	}
+	.page2line4 {
+		height: 53%;
+	}
+	.page2line3 {
+		height: 20%;
+	}
+	.page2line4col2 {
+		box-sizing: border-box;
+		padding-top: 15px;
+	}
+}
+@media (max-width:313px){
+	.p1line3 {
+		width: 97%;
+	}
+}
+@media (max-width:300px){
+	.burgerbtn {
+	    left: 11px;
+	}
+	#inputburger:checked ~ .burgermenu {
+		right: 0px;
+	}
+	.page2line3btn {
+		margin: 0px 5px;
+	}
+	.page2line4col1line2 {
+		font-size: 15px;
+	}
+	.page2line4col2line2 {
+		font-size: 15px;
+	}
+	.page2line1 {
+		height: 20%;
+		padding-bottom: 28px;
+	}
+	.page2line2 {
+		width: 77%;
+		height: 12%;
+	}
+	.page2line3 {
+		height: 14%;
+	}
+	.page2line4 {
+		height: 53%;
+	}
+}

@@ -42,6 +42,12 @@
     box-sizing: border-box;
     padding: 129px 43px;
 }
+.page4line3col1btn{
+	border-radius: 50%;
+}
+.page4line3col1btn:focus .roundbtn{
+	box-shadow: 0 0 2px 1px white, 0 0 14px 3px var(--color_darkgrey);
+}
 .tools{
 	background-image: url(images/sprite_icons.png);
 	background-position: -112px 8px;
