@@ -486,10 +486,26 @@
 	.customblock1 {
 		height: 283vh;
 	}
+	.page6line1 {
+		height: 7%;
+	}
+	.page6line3 {
+		height: 82%;
+	}
+	#page6 {
+		height: 124vh;
+	}
 }
 @media (max-height:860px) and (orientation: portrait){
 	.customblock1 {
 		height: 307vh;
+	}
+	.page4line1 {
+    height: 11%;
+    padding-bottom: 15px;
+	}
+	.page4line3 {
+		height: 84%;
 	}
 }
 @media (max-height:800px) and (orientation: portrait){
@@ -497,9 +513,72 @@
 		height: 623vh;
 	}
 }
+@media (max-height:780px) and (orientation: portrait){
+	.page2line1 {
+		height: 19%;
+		padding-bottom: 11px;
+	}
+	.page2line2 {
+		height: 10%;
+	}
+	.page2line3 {
+		height: 12%;
+	}
+	.page2line4 {
+		height: 59%;
+	}
+	#page4 {
+		height: 150vh;
+	}
+	
+}
 @media (max-height:710px) and (orientation: portrait){
 	.customblock1 {
 		height: 700vh;
+	}
+	.page2line1 {
+		width: 70%;
+		height: 14%;
+	}
+	.page2line4 {
+		height: 64%;
+	}
+	.page3line1 {
+		height: 12%;
+		padding-bottom: 18px;
+	}
+	.page3line2 {
+		padding: 0 29px 91px;
+	}
+	.page3line3 {
+		height: 60%;
+	}
+	#page3 {
+		height: 150vh;
+	}
+	#page4 {
+		height: 200vh;
+	}
+	.page4line1 {
+		height: 7%;
+	}
+	.page4line2 {
+		height: 7%;
+	}
+	.page4line3col1 {
+		height: 7%;
+	}
+	.page4line3col2 {
+		height: 23%;
+	}
+	.page4line3col3 {
+		height: 70%;
+	}
+	#page6 {
+		height: 143vh;
+	}
+	#footer {
+		height: 30vh;
 	}
 }
 @media (max-height:640px) and (orientation: portrait){
@@ -519,15 +598,43 @@
 	.p1footerline {
 		height: 18%;
 	}
+	#page2 {
+		height: 130vh;
+	}
+	.page3line4textcol2 {
+		height: 33%;
+	}
+	.page3line4textcol1 {
+		height: 47%;
+	}
+	.footertextline1 {
+		height: 57%;
+		padding-top: 0px;
+	}
+	.footertextline2 {
+		height: 17%;
+	}
 }
 @media (max-height:600px) and (orientation: portrait){
 	.customblock1 {
 		height: 805vh;
 	}
+	#page6 {
+		height: 169vh;
+	}
 }
 @media (max-height:550px) and (orientation: portrait){
 	.customblock1 {
 		height: 850vh;
+	}
+	.page3line3 {
+		height: 61%;
+	}
+	#page3 {
+		height: 200vh;
+	}
+	#page4 {
+		height: 250vh;
 	}
 }
 @media (max-height:525px) and (orientation: portrait){
@@ -536,6 +643,9 @@
 	}
 	.p1line2 {
 		padding: 0px 42px 18px;
+	}
+	.footertextline1 {
+		width: 139px;
 	}
 }
 @media (max-height:500px) and (orientation: portrait){
