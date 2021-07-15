@@ -1,0 +1,303 @@
+html,body{
+	margin: 0;
+    overflow-x: hidden;
+	color: white;
+	font-family: Source Sans Pro, Arial, sans-serif;
+	scroll-behavior: smooth;
+	background-color: hsl(0deg 0% 95%);
+	cursor: url(./images/cursorbody.png), auto;
+	animation: 5s noscroll linear;
+}
+@keyframes noscroll{
+	from{
+		overflow: hidden;
+	}
+	to{
+		overflow: hidden;
+	}
+}
+body::-webkit-scrollbar { /* скроллбар */
+    width: 6px;
+}
+body::-webkit-scrollbar-button { /* кнопка */
+    height: 14px;
+	background-color: var(--color_darkgrey);
+}
+body::-webkit-scrollbar-track { /* трек */
+   	background-color: #FFFFFF;
+	box-shadow: inset 0 0 2px 0px var(--color_lightgrey);
+}
+body::-webkit-scrollbar-thumb { /* ползунок */
+    background-color: var(--color_aqua);
+}
+
+@font-face{
+	src: url(./font/18811.ttf);
+	font-family: 'Source Sans Pro';
+}
+@font-face{
+	src: url(./font/Arial_Narrow.ttf);
+	font-family: 'Arial Narrow';
+}
+:root{
+	--font-family_all: Source Sans Pro;
+	--font-family_Arial: Arial;
+	--font-family_Arial_Narrow: 'Arial Narrow';
+	--color_aqua: hsl(166deg 100% 40%);
+	--color_lightgrey: hsl(0deg 0% 53%);
+	--color_darkgrey: hsl(240deg 1% 39%);
+}
+.block{
+	height: 100vh;
+	width: 100vw;
+}
+#page1{
+	background-image: linear-gradient(hsl(0deg 0% 0% / 48%), hsl(0deg 0% 0% / 48%)),
+						url(./images/photopage1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.headline{
+	height: 10%;
+	width: 100%;
+	min-width: 816px;
+	display: flex;
+    flex-direction: row;
+    -moz-flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.citename{
+	display: flex;
+    height: 100%;
+    width: 40%;
+	min-width: 376px;
+    font-weight: 800;
+    font-size: 28px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    /* flex-shrink: 0; */
+    justify-content: flex-start;
+    align-items: center;
+	font-family: var(--font-family_Arial);
+}
+.menubox{
+	display: flex;
+    height: 100%;
+    width: 60%;
+    max-width: 908px;
+    flex-direction: row;
+    -moz-flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-right: 100px;
+    align-items: center;
+}
+.menu{
+    padding: 0 4px;
+    font-size: 19px;
+}
+.buttonwithborder{
+	text-decoration: none;
+	color: white;
+	border: solid 1px transparent;
+	padding: 4px 11px;
+	cursor: url(./images/cursorbtn.png), auto;
+}
+.buttonwithborder:focus{
+    border-radius: 18px;
+    outline: none;
+    background-color: hsl(0deg 0% 0% / 22%);
+}
+.buttonwithborder:hover{
+	border: solid 1px white;
+    border-radius: 20px;
+}
+.p1mainline{
+	height: 80%;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    -moz-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p1line2{
+	height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+	-moz-flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    letter-spacing: 8px;
+    font-size: 37px;
+    box-sizing: border-box;
+	padding: 0 24px 26px;
+	text-align: center;
+}
+.p1line3{
+	height: 50%;
+	width: 100%;
+	display: flex;
+    flex-direction: row;
+	-moz-flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+	font-size: 18px;
+	text-align: center;
+    line-height: 26px;
+	word-spacing: 2px;
+    letter-spacing: 0.5px;
+	box-sizing: border-box;
+    padding: 0 24px;
+}
+.p1footerline{
+	height: 10%;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+.button{
+	text-decoration: none;
+	color: white;
+	border-radius: 50%;
+	cursor: url(./images/cursorbtn.png), auto;
+}
+.buttonsize{
+	height: 40px;
+    width: 40px;
+}
+.down{
+	height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--color_aqua);
+    transform: rotate(90deg);
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down:hover{
+	box-shadow: 0px 0px 6px 5px #ffffff;
+}
+.buttonsize:focus{
+    outline: none;
+}
+.buttonsize:focus .down{
+	background-color: hsl(166deg 100% 16%);
+    box-shadow: 0 0 3px 5px var(--color_aqua);
+}
+
+
+/* Scroll buttons */
+
+.scrollbtnswrap{
+	position: fixed;
+	top: 88vh;
+    right: 2vw;
+    z-index: 5;
+    width: 30px;
+    height: 80px;
+}
+.scrollbtn{
+	width: 30px;
+    height: 30px;
+	cursor: url(./images/cursorbtn.png), auto;
+}
+.scrollbtnup{
+	transition: 0.5s;
+    position: absolute;
+    top: 10px;
+}
+.scrollbtndown{
+	transition: 0.5s;
+    position: absolute;
+    bottom: 10px;
+}
+.scrollbtnimg{
+	width: 100%;
+    height: 100%;
+}
+.scrollbtnswrap:hover .scrollbtnup{
+	top: 4px;
+}
+.scrollbtnswrap:hover .scrollbtndown{
+	bottom: 4px;
+}
+.scrollbtnup:focus{
+	filter: drop-shadow(0px -3px 0px white) drop-shadow(0px -7px 4px var(--color_aqua));
+	transition: 0s;
+}
+.scrollbtndown:focus{
+	filter: drop-shadow(0px 3px 0px white) drop-shadow(0px 7px 4px var(--color_aqua));
+	transition: 0s;
+}
+
+/* Scroll buttons END*/ 
+
+
+
+/* Burger */
+
+#inputburger {
+    display: none;
+}
+#inputburger:checked ~ .burgermenu{
+	left: 75px;
+	transition: 1s;
+}
+.burgerbtn {
+	display: none;
+    height: 45px;
+    width: 45px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;	
+	position: absolute;
+	top: 25px;
+    right: 28px;
+}
+.burgerlines{
+	height: 45px;
+    width: 45px;
+}
+.burgermenu{
+	height: 300px;
+    width: 190px;
+    display: none;
+    flex-direction: column;
+    -moz-flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -200px;
+    top: 0px;
+    box-shadow: inset 0 0 20px -6px black;
+	background-color: hsl(35deg 27% 34%);
+    border-radius: 19px;
+}
+.burgermenubtn{
+	width: 100%;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    padding: 8px 0;
+}
+.burgermenubtn:hover {
+    box-shadow: inset 0 0 5px 1px white;
+    border-radius: 21px;
+}
+.burgermenubtn:focus {
+	color: var(--color_aqua);
+    border-radius: 21px;
+    box-shadow: inset 0 0 22px -6px black;
+}
+.burgermenubtntext{
+	font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
