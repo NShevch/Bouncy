@@ -288,7 +288,7 @@
     opacity: 0;
 }
 .p5phototitle{
-	height: 30%;
+    height: 25%;
     width: 100%;
     font-size: 19px;
     font-family: var(--font-family_Arial_Narrow);
@@ -304,7 +304,7 @@
 	background-color: var(--color_aqua);
 }
 .p5photoinfotext{
-	height: 44%;
+	height: 54%;
     width: 100%;
     font-size: 15px;
     display: flex;
@@ -313,7 +313,7 @@
     align-items: center;
 }
 .p5photolinks{
-	height: 22%;
+	height: 17%;
     width: 100%;
     display: flex;
     align-items: flex-end;
