@@ -6,8 +6,16 @@ html,body{
 	scroll-behavior: smooth;
 	background-color: hsl(0deg 0% 95%);
 	cursor: url(./images/cursorbody.png), auto;
+	animation: 5s noscroll linear;
 }
-
+@keyframes noscroll{
+	from{
+		overflow: hidden;
+	}
+	to{
+		overflow: hidden;
+	}
+}
 body::-webkit-scrollbar { /* скроллбар */
     width: 6px;
 }
