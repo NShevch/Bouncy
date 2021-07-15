@@ -141,10 +141,6 @@ html,body{
 	animation: circle1atranslate 3s 1s infinite linear ,
 				circlescale 3s 1s infinite linear ;
 }
-/* .circle2a{ */
-	/* animation: circle2atranslate 3s 1s infinite linear , */
-				/* circlescale 3s 1s infinite linear ; */
-/* } */
 .circle3a{
 	animation: circle3atranslate 3s 1.5s infinite linear ,
 				circlescale 3s 1.5s infinite linear ;
@@ -205,11 +201,6 @@ html,body{
 		transform: translate(-35vw, -1vh);
 	}
 }
-/* @keyframes circle2atranslate{ */
-	/* to{ */
-		/* transform: translate(-33vw, -25vh); */
-	/* } */
-/* } */
 @keyframes circle3atranslate{
 	to{
 		transform: translate(-45vw, -48vh);
