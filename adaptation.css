@@ -1004,4 +1004,41 @@
 	#page4 {
 		height: 238vh;
 	}
+	#page2 {
+		height: 125vh;
+	}
+	.page3line4textcol1 {
+		width: 95%;
+		font-size: 17px;
+	}
+	.page3line4textcol2button {
+		height: 27px;
+	}
+	
+}
+@media (max-height:365px) and (orientation: landscape){
+	.customblock1 {
+		height: 728vh;
+	}
+}
+@media (max-height:335px) and (orientation: landscape){
+	.customblock1 {
+		height: 784vh;
+	}
+}
+@media (max-height:311px) and (orientation: landscape){
+	.customblock1 {
+		height: 827vh;
+	}
+}
+@media (max-height:300px) and (orientation: landscape){
+	.customblock1 {
+		height: 870vh;
+	}
+}
+
+@media (max-width:800px) and (orientation: landscape){
+	.page4line3col1 {
+    width: 79%;
+	}
 }
