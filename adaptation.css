@@ -1052,7 +1052,7 @@
 		font-size: 79px;
 	}
 }
-@media (max-width:600px){
+@media (max-width:1000px){
 	.text {
 		width: 236px;
 		font-size: 48px;
