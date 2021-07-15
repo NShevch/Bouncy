@@ -1,0 +1,262 @@
+html,body{
+	margin: 0;
+}
+#loading{
+	height: 100vh;
+	width: 100vw;
+	font-family: Arial, sans-serif;
+	background-image: linear-gradient(hsl(30deg 27% 40%),
+						hsl(154deg 15% 28%),
+						hsl(224deg 19% 16%));
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	overflow: hidden;
+	animation: disappearance 0.7s 5s linear forwards;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 15;
+}
+.wrapofcircles{
+	height: 200px;
+    width: 600px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+}
+.text{
+	height: 149px;
+    width: 553px;
+    color: hsl(0deg 0% 100%);
+    font-size: 114px;
+    position: absolute;
+    z-index: 3;
+    font-weight: 800;
+    filter: drop-shadow(-2px -2px 3px black) 
+			drop-shadow(8px 8px 3px black);
+}
+.circle{
+    border-radius: 50%;
+    height: 200px;
+    width: calc(553px / 7);
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    box-shadow: 0px 0px 8px 1px hsl(0deg 0% 0%);
+}
+.circle1{
+	height: 75px;
+    width: 75px;
+    bottom: -5px;
+    left: -14px;
+    background-color: hsl(168deg 100% 39% / 92%);
+	animation: circles 1s infinite alternate linear;
+}
+.circle2{
+	width: 200px;
+    box-shadow: 0px 0px 20px 0px hsl(0deg 0% 100%),
+				0px 0px 66px 11px hsl(0deg 0% 0%);
+    background-image: radial-gradient(circle at 13% -5%, white -21px, transparent 101px),
+						linear-gradient(152deg, 
+								hsl(30deg 30% 44%), 
+								hsl(154deg 15% 32%), 
+								hsl(224deg 19% 21%));
+	animation: maincircle 5s infinite linear;
+}
+.circle3{
+	height: 90px;
+    width: 90px;
+    top: 26px;
+    left: 114px;
+    background-color: hsl(177deg 100% 36% / 92%);
+	animation: circles 1s 1s infinite alternate linear;
+}
+.circle4{
+	height: 100px;
+    width: 100px;
+    bottom: 11px;
+    left: 134px;
+    background-color: hsl(149deg 49% 28% / 90%);
+	animation: circles 1s 0.7s infinite alternate linear;
+}
+.circle5{
+	height: 150px;
+    width: 150px;
+    top: 11px;
+    left: 185px;
+    background-color: hsl(156deg 73% 49% / 80%);
+	animation: circles 1s 0.3s infinite alternate linear;
+}
+.circle6{
+	height: 130px;
+    width: 130px;
+    bottom: 0px;
+    left: 248px;
+    background-color: hsl(169deg 100% 41% / 80%);
+	animation: circles 1s 1.2s infinite alternate linear;
+}
+.circle7{
+	height: 118px;
+    width: 118px;
+    top: 44px;
+    left: 319px;
+    background-color: hsl(169deg 79% 84% / 93%);
+	animation: circles 1s 0.6s infinite alternate linear;
+}
+.circle8{
+	height: 70px;
+    width: 70px;
+    top: 8px;
+    left: 386px;
+    background-color: hsl(94deg 22% 44% / 85%);
+	animation: circles 0.8s 0.2s infinite alternate linear;
+}
+.circle9{
+	height: 130px;
+    width: 131px;
+    bottom: 16px;
+    left: 400px;
+    background-color: hsl(38deg 62% 41% / 80%);
+	animation: circles 1s 0.3s infinite alternate linear;
+}
+.circle10{
+	height: 80px;
+    width: 80px;
+    bottom: 12px;
+    left: 473px;
+    background-color: hsl(38deg 88% 57% / 81%);
+	animation: circles 1s 0.8s infinite alternate linear;
+}
+.circle11{
+	height: 115px;
+    width: 115px;
+    top: 0px;
+    left: 481px;
+    background-color: hsl(27deg 47% 71% / 73%);
+	animation: circles 1s 0.5s infinite alternate linear;
+}
+.circle1a{
+	animation: circle1atranslate 3s 1s infinite linear ,
+				circlescale 3s 1s infinite linear ;
+}
+/* .circle2a{ */
+	/* animation: circle2atranslate 3s 1s infinite linear , */
+				/* circlescale 3s 1s infinite linear ; */
+/* } */
+.circle3a{
+	animation: circle3atranslate 3s 1.5s infinite linear ,
+				circlescale 3s 1.5s infinite linear ;
+}
+.circle4a{
+	animation: circle4atranslate 3s 2s infinite linear ,
+				circlescale 3s 2s infinite linear ;
+}
+.circle5a{
+	animation: circle5atranslate 3s 2.8s infinite linear ,
+				circlescale 3s 2.8s infinite linear ; 
+}
+.circle6a{
+	animation: circle6atranslate 3s 3.1s infinite linear,
+				circlescale 3s 3.1s infinite linear;
+}
+.circle7a{
+	animation: circle7atranslate 3s 1.6s infinite linear,
+				circlescale 3s 1.6s infinite linear;
+}
+.circle8a{
+	animation: circle8atranslate 3s 2.4s infinite linear,
+				circlescale 3s 2.4s infinite linear;
+}
+.circle9a{
+	animation: circle9atranslate 3s 3.7s infinite linear,
+				circlescale 3s 3.7s infinite linear;
+}
+.circle10a{
+	animation: circle10atranslate 3s 1.3s infinite linear,
+				circlescale 3s 1.3s infinite linear;
+}
+.circle11a{
+	animation: circle11atranslate 3s 2.9s infinite linear,
+				circlescale 3s 2.9s infinite linear;
+}
+@keyframes circles{
+	from{
+		opacity: 1;
+	}
+	to{
+		opacity: 0;
+	}
+}
+@keyframes maincircle{
+	to{
+		transform: rotate(360deg);
+	}
+}
+@keyframes circlescale{
+	to{
+		height: 0px;
+		width: 0px;
+	}
+}
+@keyframes circle1atranslate{
+	to{
+		transform: translate(-35vw, -1vh);
+	}
+}
+/* @keyframes circle2atranslate{ */
+	/* to{ */
+		/* transform: translate(-33vw, -25vh); */
+	/* } */
+/* } */
+@keyframes circle3atranslate{
+	to{
+		transform: translate(-45vw, -48vh);
+	}
+}
+@keyframes circle4atranslate{
+	to{
+		transform: translate(-45vw, 39vh);
+	}
+}
+@keyframes circle5atranslate{
+	to{
+		transform: translate(-17vw, -44vh);
+	}
+}
+@keyframes circle6atranslate{
+	to{
+		transform: translate(-20vw, 42vh);
+	}
+}
+@keyframes circle7atranslate{
+	to{
+		transform: translate(-3vw, -48vh);
+	}
+}
+@keyframes circle8atranslate{
+	to{
+		transform: translate(12vw, -49vh);
+	}
+}
+@keyframes circle9atranslate{
+	to{
+		transform: translate(1vw, 51vh);
+	}
+}
+@keyframes circle10atranslate{
+	to{
+		transform: translate(35vw, 50vh);
+	}
+}
+@keyframes circle11atranslate{
+	to{
+		transform: translate(42vw, -36vh);
+	}
+}
+@keyframes disappearance{
+	to{
+		transform: translatex(-100vw);
+	}
+}
