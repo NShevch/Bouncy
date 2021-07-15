@@ -1053,17 +1053,6 @@
 	}
 }
 @media (max-width:600px){
-	.wrapofcircles {
-		width: 565px;
-	}
-}
-@media (max-width:450px){
-	.text {
-		width: 331px;
-		font-size: 68px;
-	}
-}
-@media (max-width:300px){
 	.text {
 		width: 236px;
 		font-size: 48px;
@@ -1073,7 +1062,7 @@
 		top: -63px;
 	}
 }
-@media (max-width:200px){
+@media (max-width:300px){
 	.text {
 		width: 186px;
 		font-size: 38px;
