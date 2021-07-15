@@ -32,11 +32,11 @@ body::-webkit-scrollbar-thumb { /* ползунок */
 }
 
 @font-face{
-	src: url(font/18811.ttf);
+	src: url(./font/18811.ttf);
 	font-family: 'Source Sans Pro';
 }
 @font-face{
-	src: url(font/Arial_Narrow.ttf);
+	src: url(./font/Arial_Narrow.ttf);
 	font-family: 'Arial Narrow';
 }
 :root{
@@ -135,6 +135,7 @@ body::-webkit-scrollbar-thumb { /* ползунок */
     font-size: 37px;
     box-sizing: border-box;
 	padding: 0 24px 26px;
+	text-align: center;
 }
 .p1line3{
 	height: 50%;
